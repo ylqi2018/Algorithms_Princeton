@@ -38,9 +38,9 @@ public class Selection {
 		assert isSorted(a, comparator);
 	}
 	
-/***********************
+/**********************************************
  * Helper sorting function
- ***********************/
+ **********************************************/
 	// is v < w ?
 	private static boolean less(Comparable v, Comparable w) {
 		return v.compareTo(w) < 0;
@@ -97,6 +97,12 @@ public class Selection {
 	//http://www.cnblogs.com/lyf22/p/5405294.html
 	//在common选项里有一个Standard input and output,把Input File选好路径点击run就行了。
 	//但是run了之后要在控制台中按ctrl + Z程序才能运行完成。
+	/**
+	 * Reads in a sequence of strings from standard input;
+	 * selection sorts them;
+	 * and prints them to standard output in ascending order.
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		String[] a = StdIn.readAllStrings();
 		Selection.sort(a);
