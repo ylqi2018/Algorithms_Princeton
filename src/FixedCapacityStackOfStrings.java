@@ -1,8 +1,10 @@
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 //https://stackoverflow.com/questions/16207427/compile-error-cannot-find-symbol-in-stdin-and-stdout
 //import edu.princeton.cs.algs4.StdIn;
 //import edu.princeton.cs.algs4.StdOut;
+
 
 public class FixedCapacityStackOfStrings implements Iterable<String> {
     private String[] a; // holds the items

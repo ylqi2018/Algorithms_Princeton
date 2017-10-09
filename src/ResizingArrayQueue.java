@@ -1,5 +1,7 @@
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+
 
 public class ResizingArrayQueue<Item> implements Iterable<Item> {
     private Item[] q;       // queue elements

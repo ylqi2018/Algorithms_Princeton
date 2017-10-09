@@ -1,5 +1,7 @@
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+
 
 public class ResizingArrayStack<Item> implements Iterable<Item> {
 	private Item[] a;         // array of items

@@ -1,5 +1,7 @@
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+
 
 public class FixedCapacityStack<Item> implements Iterable<Item> {
 	private Item[] a;	// Holds the items
