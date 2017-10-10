@@ -34,7 +34,7 @@ public class SortCompare {
 	public static double timeSortedInput(String alg, int n, int trials) {
 		double total = 0.0;
 		Double[] a = new Double[n];
-		for(int t=0; i<trials; t++) {
+		for(int t=0; t<trials; t++) {
 			for(int i=0; i<n; i++) {
 				a[i] = 1.0*i;
 			}
