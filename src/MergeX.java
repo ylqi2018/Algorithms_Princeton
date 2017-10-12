@@ -23,9 +23,9 @@ public class MergeX {
 			} else if(j>hi) {
 				dst[k] = src[i++];
 			} else if(less(src[j], src[i])) {
-				dst[k] = src[j];
+				dst[k] = src[j++];
 			} else {
-				dst[k] = src[i];
+				dst[k] = src[i++];
 			}
 		}
 		
