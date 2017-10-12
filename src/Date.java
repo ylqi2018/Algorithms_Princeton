@@ -1,4 +1,9 @@
-
+/**
+ * Class Date illustrates how to implement the Comparable interface for a user-defined type.
+ * Implement the Comparable interface need to implements compareTo()
+ * @author Administrator
+ *
+ */
 public class Date implements Comparable<Date>{
 	private static final int[] DAYS = {0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 	private final int month;	// month (between 1 and 12)
