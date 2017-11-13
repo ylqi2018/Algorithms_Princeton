@@ -92,6 +92,9 @@ public class Insertion {
     			exch(index, j, j-1);
     		}
     	}
+    	for(int i=0; i<n; i++) {
+    		StdOut.print(index[i] + "*");
+    	}
     	return index;
     }
     
@@ -150,7 +153,7 @@ public class Insertion {
 	}
 	
 /****************************************
- * print array to standart output
+ * print array to standard output
  ****************************************/
 	private static void show(Comparable[] a) {
 		for(int i=0; i<a.length; i++) {
@@ -160,8 +163,11 @@ public class Insertion {
 	
 	public static void main(String[] args) {
 		String[] a = StdIn.readAllStrings();
+		String[] b = a;
 		Insertion.sort(a);
+		Insertion.indexSort(b);
 		show(a);
+		show(b);
 	}
 	
 }
